@@ -16,9 +16,9 @@ print (session.getwelcome())
 
 session.login("User", "Password") 
 
-file = open('filename','rb')                  # file to send
+file = open('filename','rb') # file to send
 
 #Fills with the absolute path to the file
-session.storbinary(r'STOR /home/example/filename', file)     # send the file
-file.close()                                    # close file and FTP
+session.storbinary(r'STOR /home/example/filename', file) # send the file
+file.close() # close file and FTP
 session.quit()
