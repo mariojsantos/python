@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# A realy simple python portscan  
 import socket,sys
 
 #Selected ports
